@@ -1,0 +1,55 @@
+# Metadata for Employer Default Indicator
+---
+Identifier: '3b883df5-4919-472f-a785-9f64602ce869'
+Name: 'employer-default-indicator'
+Title: 'Employer Default Indicator'
+Description: 'Percentage of employers who have not settled their late payments within
+  a month after the expiry of the grace period.'
+Topics:
+  - 'Economy'
+Keywords:
+  - 'Businesses'
+  - 'Companies'
+  - 'Employment'
+  - 'Salaries'
+  - 'Savings'
+  - 'Social Security'
+Publisher:
+  Name: 'Central Provident Fund Board'
+  Admin 1:
+    Name: 'Chong Chiew Fong'
+    Department: 'Management Information Department'
+    Email: 'CHONG_Chiew_Fong@cpf.gov.sg'
+Sources:
+  - 'Central Provident Fund Board'
+Source Url: 'https://www.cpf.gov.sg/content/dam/web/common/images/cpfstatistics/Sub_Employers.jpg'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Quarterly'
+Coverage: '2014-01-01 to 2021-10-31'
+Last Updated: '2022-03-30T06:22:33.712042'
+Resources:
+  -
+    Identifier: '66effa83-145d-47b7-91a8-31e430d63020'
+    Title: 'Employer default indicator'
+    Url: 'https://storage.data.gov.sg/employer-default-indicator/resources/employer-default-indicator-2022-03-21T08-00-43Z.csv'
+    Format: 'CSV'
+    Coverage: '2014-01-01 to 2021-10-31'
+    Description:
+      - 'Refers to percentage of employers who have not settled their late payments
+        within a month after the expiry of the grace period.'
+      - 'Percentages are expressed as a value over 100, i.e. "100" represents 100%'
+    Last Updated: '2022-03-21T08:00:43.081692'
+    Schema:
+      -
+        Name: 'month'
+        Title: 'Month'
+        Type: 'datetime'
+        Sub Type: 'month'
+        Format: 'YYYY-MM'
+      -
+        Name: 'default_rate'
+        Title: 'Default rate'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 100, i.e. "100" represents
+          100%'
