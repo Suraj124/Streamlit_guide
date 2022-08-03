@@ -1,4 +1,4 @@
-import streamlit as st  # Import streamlit libraray
+import streamlit as st
 
 st.title("Hello STramlit")
 
